@@ -1,0 +1,10 @@
+version: '3.8'
+
+services:
+  demo-app:
+    build: .
+    image: ${DOCKER_USERNAME}/demo-cicd:latest
+    container_name: demo-cicd
+    ports:
+      - "5050:3002"
+    restart: always
