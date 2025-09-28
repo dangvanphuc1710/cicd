@@ -36,4 +36,4 @@ jobs:
           script: |
             docker pull ${{ secrets.DOCKER_USERNAME }}/demo-cicd:latest
             docker rm -f demo-cicd || true
-            docker run -d -p 5000:3000 --name demo-cicd ${{ secrets.DOCKER_USERNAME }}/demo-cicd:latest
+            docker run -d -p 5050:3002 --name demo-cicd ${{ secrets.DOCKER_USERNAME }}/demo-cicd:latest
