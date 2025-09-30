@@ -35,7 +35,7 @@ const html = `
       <tr>
         <th>Tên</th>
         <th>Tuổi</th>
-        <th>Số điện thoại</th>
+        <th>Số điện thoạii</th>
         <th>Địa chỉ</th>
         <th>Hành động</th>
       </tr>
